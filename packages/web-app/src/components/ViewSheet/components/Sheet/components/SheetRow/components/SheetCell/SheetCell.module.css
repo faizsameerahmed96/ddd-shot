@@ -1,0 +1,10 @@
+.cellTextArea {
+    border: none;
+    padding: 4px;
+    overflow: hidden;
+    resize: none;
+}
+
+.cellTextArea:focus {
+    outline: none;
+}

@@ -1,0 +1,29 @@
+
+# Root
+/node_modules/
+dist/
+lerna-debug*
+
+# For React Web App
+packages/web-app/node_modules
+packages/web-app/.pnp
+packages/web-app/.pnp.js
+
+packages/web-app/coverage
+
+packages/web-app/build
+
+packages/web-app/.DS_Store
+packages/web-app/.env.local
+packages/web-app/.env.development.local
+packages/web-app/.env.test.local
+packages/web-app/.env.production.local
+
+packages/web-app/npm-debug.log*
+packages/web-app/yarn-debug.log*
+packages/web-app/yarn-error.log*
+
+# For the API
+packages/api/node_modules
+packages/api/dist
+packages/api/.env
